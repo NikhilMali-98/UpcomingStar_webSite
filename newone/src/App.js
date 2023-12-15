@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import "./styles/app.scss";
 import "./styles/header.scss";
+
 import Header from "./component/Header";
 import Home from "./component/Home";
 import About from "./component/About";
@@ -10,6 +11,7 @@ import Brands from "./component/Brands";
 import Services from "./component/Services";
 import Contact from "./component/Contact";
 import Footer from "./component/Footer";
+import "./styles/media.scss";
 
 function App() {
   return (

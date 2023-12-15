@@ -18,7 +18,7 @@ const Contact = () => {
           </div>
           <div>
             <label >Contact</label>
-            <input type="text" required  placeholder='Enter contact detail'/>
+            <input type="number" required  placeholder='Enter contact detail'/>
           </div>
           <div>
             <label>Message</label>
